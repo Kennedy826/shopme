@@ -1,30 +1,30 @@
 import React from "react";
-import Img1 from "../../assets/shirt/shirt.png";
-import Img2 from "../../assets/shirt/shirt2.png";
-import Img3 from "../../assets/shirt/shirt3.png";
+import Img1 from "../../assets/shopme/laptop.png";
+import Img2 from "../../assets/shopme/wirelessrouter.png";
+import Img3 from "../../assets/shopme/rack.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Casual Wear",
+    title: "Hp Elitebook",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "HP EliteBook 830 G7 Core i7 10th Gen, 16GB RAM, 512GB SSD,13.3 FHD display",
   },
   {
     id: 2,
     img: Img2,
-    title: "Printed shirt",
+    title: "Wireless Router",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Linksys WRT1900ACS Dual-Band Gigabit Smart WiFi Router",
   },
   {
     id: 3,
     img: Img3,
-    title: "Women shirt",
+    title: "Easenet 9U Data Cabinet",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "GLASS DOOR Lockable Front Door and Detachable Side Doors, 4-WAY PDU Free Power Distribution Unit,Trays for Extra Partitioning",
   },
 ];
 const TopProducts = ({ handleOrderPopup }) => {
@@ -40,8 +40,7 @@ const TopProducts = ({ handleOrderPopup }) => {
             Best Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Improve your productivity with these amazing products.
           </p>
         </div>
         {/* Body section */}

@@ -1,15 +1,16 @@
 import React from "react";
-import Img1 from "../../assets/women/women.png";
-import Img2 from "../../assets/women/women2.jpg";
-import Img3 from "../../assets/women/women3.jpg";
-import Img4 from "../../assets/women/women4.jpg";
+import Img1 from "../../assets/shopme/odf.png";
+import Img2 from "../../assets/shopme/ciscoswitch.png";
+import Img3 from "../../assets/shopme/station.png";
+import Img4 from "../../assets/shopme/laptop1.png";
+import Img5 from "../../assets/shopme/backup.png";
 import { FaStar } from "react-icons/fa6";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Women Ethnic",
+    title: "Fiber Optic 24 Core ODF with SC/APC connector",
     rating: 5.0,
     color: "white",
     aosDelay: "0",
@@ -17,7 +18,7 @@ const ProductsData = [
   {
     id: 2,
     img: Img2,
-    title: "Women western",
+    title: "CISCO 2024-28 PORT GIGABIT SWITCH",
     rating: 4.5,
     color: "Red",
     aosDelay: "200",
@@ -25,7 +26,7 @@ const ProductsData = [
   {
     id: 3,
     img: Img3,
-    title: "Goggles",
+    title: "Dell Docking Station – WD19S 180W",
     rating: 4.7,
     color: "brown",
     aosDelay: "400",
@@ -33,17 +34,17 @@ const ProductsData = [
   {
     id: 4,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Macbook Pro A2141 Core i9 16GB 1TB SSD 4GB Radeon Pro",
     rating: 4.4,
-    color: "Yellow",
+    color: "white",
     aosDelay: "600",
   },
   {
     id: 5,
-    img: Img2,
-    title: "Fashin T-Shirt",
+    img: Img5,
+    title: "APC smart-ups 1000va 230v SMC1000ic",
     rating: 4.5,
-    color: "Pink",
+    color: "black",
     aosDelay: "800",
   },
 ];
@@ -61,8 +62,7 @@ const Products = () => {
             Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Here are some of the top selling products.
           </p>
         </div>
         {/* Body section */}

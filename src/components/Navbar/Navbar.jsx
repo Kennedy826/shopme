@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/shopme/pngegg.png";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
@@ -18,17 +18,17 @@ const Menu = [
   },
   {
     id: 3,
-    name: "Kids Wear",
+    name: "laptops",
     link: "/#",
   },
   {
     id: 3,
-    name: "Mens Wear",
+    name: "Network Switches",
     link: "/#",
   },
   {
     id: 3,
-    name: "Electronics",
+    name: "Wireless Routers",
     link: "/#",
   },
 ];
@@ -60,7 +60,7 @@ const Navbar = ({ handleOrderPopup }) => {
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10" />
-              Shopsy
+              Shopme
             </a>
           </div>
 

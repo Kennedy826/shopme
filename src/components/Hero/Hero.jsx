@@ -1,30 +1,30 @@
 import React from "react";
-import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/shopping.png";
-import Image3 from "../../assets/hero/sale.png";
+import Image1 from "../../assets/shopme/laptop.png";
+import Image2 from "../../assets/shopme/wirelessrouter.png";
+import Image3 from "../../assets/shopme/laptop2.png";
 import Slider from "react-slick";
 
 const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Men's Wear",
+    title: "Hp Elitebook",
     description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "HP EliteBook 830 G7 Core i7 10th Gen, 16GB RAM, 512GB SSD,13.3 FHD display",
   },
   {
     id: 2,
     img: Image2,
-    title: "30% off on all Women's Wear",
+    title: "Wireless Router",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Linksys WRT1900ACS Dual-Band Gigabit Smart WiFi Router",
   },
   {
     id: 3,
     img: Image3,
-    title: "70% off on all Products Sale",
+    title: "Apple MacBook",
     description:
-      "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Apple MacBook Air M2 @3.49GHz 13.6 Liquid Retina Display 8GB RAM 256GB SSD True Tone Technology 1080p FaceTime HD Webcam Touch ID Backlit Magic Keyboard Thunderbolt 3 A2681",
   },
 ];
 
