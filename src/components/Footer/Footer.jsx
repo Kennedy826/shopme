@@ -1,6 +1,6 @@
 import React from "react";
 import footerLogo from "../../assets/shopme/pngegg.png";
-import Banner from "../../assets/shopme/serverroom.jpg";
+import Banner from "../../assets/shopme/datacenter.jpg";
 import {
   FaFacebook,
   FaInstagram,
@@ -46,11 +46,11 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              Shopme
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+              Roytide Soultions your best place for all your best computer accessories.
+              Reach out to us through our social media handles
             </p>
           </div>
 
@@ -108,11 +108,11 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
+                  <p>Nairobi, Kenya</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+91 123456789</p>
+                  <p>+254 740599694</p>
                 </div>
               </div>
             </div>
